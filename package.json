@@ -1,8 +1,10 @@
 {
   "name": "hello-world",
   "version": "0.0.0",
+  "main": "hello.js",
   "scripts": {
-    
+    "dev": "nodemon --ignore node_modules/ server.js",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
