@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve --H 0.0.0.0 --port 8080 --disable-host-check"
+    "start": "npm start"
   },
   "private": true,
   "dependencies": {
