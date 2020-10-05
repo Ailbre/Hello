@@ -1,10 +1,9 @@
 {
   "name": "hello-world",
   "version": "0.0.0",
-  "main": "hello.js",
   "scripts": {
-    "dev": "nodemon --ignore node_modules/ server.js",
-    "start": "node server.js"
+    "start": "node index.js",
+    "test": "jest --coverage --forceExit"
   },
   "private": true,
   "dependencies": {
