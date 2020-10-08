@@ -1,12 +1,11 @@
 {
   "name": "hello-world",
   "version": "0.0.0",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "ng serve"
     },
-  "private": true,
   "dependencies": {
+    "@angular-devkit/build-angular": "~0.1000.5",
     "@angular/animations": "~10.0.6",
     "@angular/common": "~10.0.6",
     "@angular/compiler": "~10.0.6",
