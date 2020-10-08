@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve"
+    "build": "ng build --configuration=production --base-href ./ --deploy-url ./ --source-map";
     },
   "dependencies": {
     "@angular-devkit/build-angular": "~0.1000.5",
