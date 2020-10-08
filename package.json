@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve"
+    "start": "ng serve",
     "build": "ng build --configuration=production --base-href ./ --deploy-url ./ --source-map";
     },
   "dependencies": {
